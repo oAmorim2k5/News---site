@@ -1,8 +1,8 @@
-const openButton = document.querySelector(".header-mobile > button")
-const closeButton = document.querySelector(".header-mobile nav button")
+const openButton = document.querySelector("header > button")
+const closeButton = document.querySelector("header nav button")
 
 const body = document.querySelector("body")
-const nav = document.querySelector(".header-mobile nav")
+const nav = document.querySelector("header nav.nav-mobile")
 
 
 openButton.addEventListener('click', openMenu)
